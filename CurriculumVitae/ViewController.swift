@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         if CoreDataManager.shared.getAllPerson().count == 0 {
             CoreDataManager.shared.savePersonWith(name: "xiaoming", age: 23)
         }
+        print("test")
 //        CoreDataManager.shared.savePersonWith(name: "xiaozhang", age: 22)
 //        let data:[Person] = CoreDataManager.shared.getAllPerson()
 //        for p:Person in data {

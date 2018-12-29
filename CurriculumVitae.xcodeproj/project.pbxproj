@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290E75EA21D1C8AF004E9FAC /* UINavigationBar+NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E75E921D1C8AF004E9FAC /* UINavigationBar+NormalView.swift */; };
+		290E75F921D21960004E9FAC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E75F821D21960004E9FAC /* CoreDataManager.swift */; };
+		290E760021D21E0C004E9FAC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 290E75FE21D21E0C004E9FAC /* Model.xcdatamodeld */; };
+		293165C321CA203C00B40328 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293165C221CA203C00B40328 /* UIDevice+Extension.swift */; };
+		293165C521CA239200B40328 /* MineSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293165C421CA239200B40328 /* MineSecondView.swift */; };
+		293165C721CA239E00B40328 /* MineSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293165C621CA239E00B40328 /* MineSecondView.xib */; };
+		293165C921CA374500B40328 /* MineThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293165C821CA374500B40328 /* MineThirdView.swift */; };
+		293165CB21CA375100B40328 /* MineThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293165CA21CA375100B40328 /* MineThirdView.xib */; };
+		2982B72A21CB2CED0062E438 /* GPLKeyBoardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982B72921CB2CED0062E438 /* GPLKeyBoardWrapper.swift */; };
+		2982B73221CB94400062E438 /* BaseMineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982B73121CB94400062E438 /* BaseMineView.swift */; };
 		29BFC4FC21C3AC15008ACC81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC4FB21C3AC15008ACC81 /* AppDelegate.swift */; };
 		29BFC4FE21C3AC15008ACC81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC4FD21C3AC15008ACC81 /* ViewController.swift */; };
 		29BFC50121C3AC15008ACC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC4FF21C3AC15008ACC81 /* Main.storyboard */; };
 		29BFC50321C3AC16008ACC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC50221C3AC16008ACC81 /* Assets.xcassets */; };
 		29BFC50621C3AC16008ACC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC50421C3AC16008ACC81 /* LaunchScreen.storyboard */; };
+		29BFC51021C3AE18008ACC81 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC50E21C3AE18008ACC81 /* FirstViewController.swift */; };
+		29BFC51121C3AE18008ACC81 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC50F21C3AE18008ACC81 /* FirstViewController.xib */; };
+		29BFC51421C3B8DE008ACC81 /* CollectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC51221C3B8DE008ACC81 /* CollectionHeaderReusableView.swift */; };
+		29BFC51521C3B8DE008ACC81 /* CollectionHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC51321C3B8DE008ACC81 /* CollectionHeaderReusableView.xib */; };
+		29BFC51821C3B920008ACC81 /* CollectionFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC51621C3B920008ACC81 /* CollectionFooterReusableView.swift */; };
+		29BFC51921C3B920008ACC81 /* CollectionFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC51721C3B920008ACC81 /* CollectionFooterReusableView.xib */; };
+		29BFC51C21C3B9E8008ACC81 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC51A21C3B9E8008ACC81 /* CollectionViewCell.swift */; };
+		29BFC51D21C3B9E8008ACC81 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC51B21C3B9E8008ACC81 /* CollectionViewCell.xib */; };
+		29BFC51F21C76D00008ACC81 /* MineInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BFC51E21C76D00008ACC81 /* MineInfoView.swift */; };
+		29BFC52121C76D0A008ACC81 /* MineInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BFC52021C76D0A008ACC81 /* MineInfoView.xib */; };
+		29D1275521D0F588000C6078 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1275421D0F588000C6078 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290E75E921D1C8AF004E9FAC /* UINavigationBar+NormalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+NormalView.swift"; sourceTree = "<group>"; };
+		290E75F821D21960004E9FAC /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		290E75FF21D21E0C004E9FAC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		293165C221CA203C00B40328 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		293165C421CA239200B40328 /* MineSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSecondView.swift; sourceTree = "<group>"; };
+		293165C621CA239E00B40328 /* MineSecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineSecondView.xib; sourceTree = "<group>"; };
+		293165C821CA374500B40328 /* MineThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineThirdView.swift; sourceTree = "<group>"; };
+		293165CA21CA375100B40328 /* MineThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineThirdView.xib; sourceTree = "<group>"; };
+		2982B72921CB2CED0062E438 /* GPLKeyBoardWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPLKeyBoardWrapper.swift; sourceTree = "<group>"; };
+		2982B73121CB94400062E438 /* BaseMineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMineView.swift; sourceTree = "<group>"; };
 		29BFC4F821C3AC15008ACC81 /* CurriculumVitae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BFC4FB21C3AC15008ACC81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29BFC4FD21C3AC15008ACC81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,17 @@
 		29BFC50221C3AC16008ACC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29BFC50521C3AC16008ACC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29BFC50721C3AC16008ACC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BFC50E21C3AE18008ACC81 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		29BFC50F21C3AE18008ACC81 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		29BFC51221C3B8DE008ACC81 /* CollectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		29BFC51321C3B8DE008ACC81 /* CollectionHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderReusableView.xib; sourceTree = "<group>"; };
+		29BFC51621C3B920008ACC81 /* CollectionFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFooterReusableView.swift; sourceTree = "<group>"; };
+		29BFC51721C3B920008ACC81 /* CollectionFooterReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionFooterReusableView.xib; sourceTree = "<group>"; };
+		29BFC51A21C3B9E8008ACC81 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		29BFC51B21C3B9E8008ACC81 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		29BFC51E21C76D00008ACC81 /* MineInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInfoView.swift; sourceTree = "<group>"; };
+		29BFC52021C76D0A008ACC81 /* MineInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineInfoView.xib; sourceTree = "<group>"; };
+		29D1275421D0F588000C6078 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +77,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290E75EE21D21505004E9FAC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				290E75F821D21960004E9FAC /* CoreDataManager.swift */,
+				290E75FE21D21E0C004E9FAC /* Model.xcdatamodeld */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		293165C121CA1FB600B40328 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				293165C221CA203C00B40328 /* UIDevice+Extension.swift */,
+				29D1275421D0F588000C6078 /* BaseViewController.swift */,
+				290E75E921D1C8AF004E9FAC /* UINavigationBar+NormalView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		293165CC21CA3B8400B40328 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2982B72921CB2CED0062E438 /* GPLKeyBoardWrapper.swift */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
 		29BFC4EF21C3AC15008ACC81 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +123,10 @@
 		29BFC4FA21C3AC15008ACC81 /* CurriculumVitae */ = {
 			isa = PBXGroup;
 			children = (
+				290E75EE21D21505004E9FAC /* Sources */,
+				293165CC21CA3B8400B40328 /* ThirdSDK */,
+				293165C121CA1FB600B40328 /* Extension */,
+				29BFC50D21C3AE02008ACC81 /* FirstFroup */,
 				29BFC4FB21C3AC15008ACC81 /* AppDelegate.swift */,
 				29BFC4FD21C3AC15008ACC81 /* ViewController.swift */,
 				29BFC4FF21C3AC15008ACC81 /* Main.storyboard */,
@@ -62,6 +135,28 @@
 				29BFC50721C3AC16008ACC81 /* Info.plist */,
 			);
 			path = CurriculumVitae;
+			sourceTree = "<group>";
+		};
+		29BFC50D21C3AE02008ACC81 /* FirstFroup */ = {
+			isa = PBXGroup;
+			children = (
+				29BFC50E21C3AE18008ACC81 /* FirstViewController.swift */,
+				29BFC50F21C3AE18008ACC81 /* FirstViewController.xib */,
+				2982B73121CB94400062E438 /* BaseMineView.swift */,
+				29BFC51E21C76D00008ACC81 /* MineInfoView.swift */,
+				29BFC52021C76D0A008ACC81 /* MineInfoView.xib */,
+				293165C421CA239200B40328 /* MineSecondView.swift */,
+				293165C621CA239E00B40328 /* MineSecondView.xib */,
+				293165C821CA374500B40328 /* MineThirdView.swift */,
+				293165CA21CA375100B40328 /* MineThirdView.xib */,
+				29BFC51A21C3B9E8008ACC81 /* CollectionViewCell.swift */,
+				29BFC51B21C3B9E8008ACC81 /* CollectionViewCell.xib */,
+				29BFC51221C3B8DE008ACC81 /* CollectionHeaderReusableView.swift */,
+				29BFC51321C3B8DE008ACC81 /* CollectionHeaderReusableView.xib */,
+				29BFC51621C3B920008ACC81 /* CollectionFooterReusableView.swift */,
+				29BFC51721C3B920008ACC81 /* CollectionFooterReusableView.xib */,
+			);
+			path = FirstFroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +191,7 @@
 				TargetAttributes = {
 					29BFC4F721C3AC15008ACC81 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +218,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BFC51921C3B920008ACC81 /* CollectionFooterReusableView.xib in Resources */,
+				293165C721CA239E00B40328 /* MineSecondView.xib in Resources */,
+				29BFC52121C76D0A008ACC81 /* MineInfoView.xib in Resources */,
+				29BFC51D21C3B9E8008ACC81 /* CollectionViewCell.xib in Resources */,
+				29BFC51521C3B8DE008ACC81 /* CollectionHeaderReusableView.xib in Resources */,
+				293165CB21CA375100B40328 /* MineThirdView.xib in Resources */,
 				29BFC50621C3AC16008ACC81 /* LaunchScreen.storyboard in Resources */,
 				29BFC50321C3AC16008ACC81 /* Assets.xcassets in Resources */,
 				29BFC50121C3AC15008ACC81 /* Main.storyboard in Resources */,
+				29BFC51121C3AE18008ACC81 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +238,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2982B73221CB94400062E438 /* BaseMineView.swift in Sources */,
+				29BFC51421C3B8DE008ACC81 /* CollectionHeaderReusableView.swift in Sources */,
+				290E75F921D21960004E9FAC /* CoreDataManager.swift in Sources */,
+				293165C921CA374500B40328 /* MineThirdView.swift in Sources */,
+				293165C321CA203C00B40328 /* UIDevice+Extension.swift in Sources */,
+				29D1275521D0F588000C6078 /* BaseViewController.swift in Sources */,
+				29BFC51021C3AE18008ACC81 /* FirstViewController.swift in Sources */,
+				290E760021D21E0C004E9FAC /* Model.xcdatamodeld in Sources */,
+				29BFC51F21C76D00008ACC81 /* MineInfoView.swift in Sources */,
+				290E75EA21D1C8AF004E9FAC /* UINavigationBar+NormalView.swift in Sources */,
+				29BFC51C21C3B9E8008ACC81 /* CollectionViewCell.swift in Sources */,
+				293165C521CA239200B40328 /* MineSecondView.swift in Sources */,
 				29BFC4FE21C3AC15008ACC81 /* ViewController.swift in Sources */,
+				2982B72A21CB2CED0062E438 /* GPLKeyBoardWrapper.swift in Sources */,
+				29BFC51821C3B920008ACC81 /* CollectionFooterReusableView.swift in Sources */,
 				29BFC4FC21C3AC15008ACC81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1mifudao.CurriculumVitae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +424,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1mifudao.CurriculumVitae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -334,6 +451,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		290E75FE21D21E0C004E9FAC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				290E75FF21D21E0C004E9FAC /* Model.xcdatamodel */,
+			);
+			currentVersion = 290E75FF21D21E0C004E9FAC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29BFC4F021C3AC15008ACC81 /* Project object */;
 }

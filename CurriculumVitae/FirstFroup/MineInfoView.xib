@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MineInfoView" customModule="CurriculumVitae" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我叫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWR-zw-IGm">
+                    <rect key="frame" x="40" y="80" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GeX-Oo-LHa">
+                    <rect key="frame" x="40" y="126" width="305" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3tL-6D-15m"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="性别" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTe-3b-lJu">
+                    <rect key="frame" x="40" y="186" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL5-xA-ik4">
+                    <rect key="frame" x="225" y="232" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="5XK-Qj-8A3"/>
+                        <constraint firstAttribute="height" constant="50" id="H6n-Yc-QRT"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="nvshi_nor"/>
+                    <state key="selected" backgroundImage="nvshi_sel">
+                        <color key="titleColor" red="1" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClickedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="eNB-hE-5tC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNm-8Z-ymH">
+                    <rect key="frame" x="100" y="232" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="IS6-oX-9l3"/>
+                        <constraint firstAttribute="height" constant="50" id="ol3-Z3-Hf0"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="nanshi_nor"/>
+                    <state key="selected" backgroundImage="nanshi_sel">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.92941176469999998" green="0.35294117650000001" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClickedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="xDS-0n-Pxn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AL5-xA-ik4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="4/3" id="8ai-gC-Zfa"/>
+                <constraint firstAttribute="trailing" secondItem="GeX-Oo-LHa" secondAttribute="trailing" constant="30" id="Bri-Ky-elo"/>
+                <constraint firstItem="AL5-xA-ik4" firstAttribute="top" secondItem="DNm-8Z-ymH" secondAttribute="top" id="Z5j-3C-zyQ"/>
+                <constraint firstItem="aTe-3b-lJu" firstAttribute="leading" secondItem="GeX-Oo-LHa" secondAttribute="leading" id="eom-wv-2V2"/>
+                <constraint firstItem="DNm-8Z-ymH" firstAttribute="top" secondItem="aTe-3b-lJu" secondAttribute="bottom" constant="25" id="ft2-tz-rll"/>
+                <constraint firstItem="GeX-Oo-LHa" firstAttribute="leading" secondItem="NWR-zw-IGm" secondAttribute="leading" id="hlg-4W-9aV"/>
+                <constraint firstItem="aTe-3b-lJu" firstAttribute="top" secondItem="GeX-Oo-LHa" secondAttribute="bottom" constant="30" id="o7b-eS-48s"/>
+                <constraint firstItem="NWR-zw-IGm" firstAttribute="top" secondItem="29M-fB-9f3" secondAttribute="top" constant="60" id="qtS-Zl-Atv"/>
+                <constraint firstItem="NWR-zw-IGm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="tHF-la-zq1"/>
+                <constraint firstItem="DNm-8Z-ymH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="2/3" id="zLC-QO-qK5"/>
+                <constraint firstItem="GeX-Oo-LHa" firstAttribute="top" secondItem="NWR-zw-IGm" secondAttribute="bottom" constant="25" id="zV6-sR-OYc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="29M-fB-9f3"/>
+            <connections>
+                <outlet property="btnMan" destination="DNm-8Z-ymH" id="oYd-Ac-514"/>
+                <outlet property="btnWoman" destination="AL5-xA-ik4" id="qoi-76-umC"/>
+                <outlet property="txfName" destination="GeX-Oo-LHa" id="aJx-eP-gMU"/>
+            </connections>
+            <point key="canvasLocation" x="-122" y="-9"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nanshi_nor" width="32" height="32"/>
+        <image name="nanshi_sel" width="32" height="32"/>
+        <image name="nvshi_nor" width="32" height="32"/>
+        <image name="nvshi_sel" width="32" height="32"/>
+    </resources>
+</document>

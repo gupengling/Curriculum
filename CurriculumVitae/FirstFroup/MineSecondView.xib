@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MineSecondView" customModule="CurriculumVitae" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学校" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IwY-aV-7Wc">
+                    <rect key="frame" x="40" y="80" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入学校名称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pdz-f3-Xsn">
+                    <rect key="frame" x="40" y="116" width="104" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="fv6-L1-HR7"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="入学时间和毕业时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDX-24-rvP">
+                    <rect key="frame" x="40" y="176" width="156" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYe-Yh-peT">
+                    <rect key="frame" x="40" y="217" width="60" height="30"/>
+                    <state key="normal" title="2014-09"/>
+                    <connections>
+                        <action selector="btnClickedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="o8p-sc-HWt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkR-ls-GeZ">
+                    <rect key="frame" x="130" y="217" width="60" height="30"/>
+                    <state key="normal" title="2014-09"/>
+                    <connections>
+                        <action selector="btnClickedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="mmH-ZE-Cw0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IwY-aV-7Wc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="2cO-MW-QzN"/>
+                <constraint firstItem="OkR-ls-GeZ" firstAttribute="leading" secondItem="JYe-Yh-peT" secondAttribute="trailing" constant="30" id="7Zx-UA-dPa"/>
+                <constraint firstItem="JYe-Yh-peT" firstAttribute="leading" secondItem="nDX-24-rvP" secondAttribute="leading" id="Df9-7k-yBp"/>
+                <constraint firstItem="JYe-Yh-peT" firstAttribute="top" secondItem="nDX-24-rvP" secondAttribute="bottom" constant="20" id="Jvj-kq-e9j"/>
+                <constraint firstItem="pdz-f3-Xsn" firstAttribute="top" secondItem="IwY-aV-7Wc" secondAttribute="bottom" constant="15" id="T91-hI-LmX"/>
+                <constraint firstItem="nDX-24-rvP" firstAttribute="top" secondItem="pdz-f3-Xsn" secondAttribute="bottom" constant="30" id="V7E-gL-QGB"/>
+                <constraint firstItem="OkR-ls-GeZ" firstAttribute="centerY" secondItem="JYe-Yh-peT" secondAttribute="centerY" id="Z21-6i-cUE"/>
+                <constraint firstItem="IwY-aV-7Wc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="boP-EZ-alL"/>
+                <constraint firstItem="nDX-24-rvP" firstAttribute="leading" secondItem="pdz-f3-Xsn" secondAttribute="leading" id="twA-bQ-nbK"/>
+                <constraint firstItem="pdz-f3-Xsn" firstAttribute="leading" secondItem="IwY-aV-7Wc" secondAttribute="leading" id="zb4-3K-doV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnEnd" destination="OkR-ls-GeZ" id="WXy-vt-Ya2"/>
+                <outlet property="btnStart" destination="JYe-Yh-peT" id="jAR-CC-QlW"/>
+                <outlet property="topCon" destination="boP-EZ-alL" id="e1D-0P-6vd"/>
+                <outlet property="txfSchool" destination="pdz-f3-Xsn" id="u2K-fR-Bs3"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="education" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="Transformable" valueTransformerName="Industry" customClassName="NSMutableArray" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolKey" optional="YES" attributeType="String" valueTransformerName="School" customClassName="[School]" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="key" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="key" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="School" representedClassName="School" syncable="YES" codeGenerationType="class">
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="schoolKey" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="School" inverseName="schoolKey" inverseEntity="School" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-54" positionY="-9" width="128" height="150"/>
+        <element name="School" positionX="164.87109375" positionY="56.234375" width="128" height="118"/>
+    </elements>
+</model>
